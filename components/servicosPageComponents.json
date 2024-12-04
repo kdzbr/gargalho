@@ -1,0 +1,8 @@
+{
+    "servicosPage": {
+        "telefonesComponents": "/html/body/div[2]/header/div/div/a",
+        "logoComponents": "/html/body/div[2]/header/div/div/div[1]/h1/a/img",
+        "servicosComponents": "//*[@id='main']/div/h1",
+        "contatoUniaoTintasEmail": "/html/body/footer/div/div[2]/a"
+    }
+}
