@@ -1,0 +1,15 @@
+{
+    "empresaPage": {
+        "telefonesComponent": "/html/body/div[2]/header/div/div/a",
+        "logoComponent": "/html/body/div[2]/header/div/div/div[1]/h1/a/img",
+        "empresaComponent": "//*[@id='main']/div/h1",
+        "missaoComponent": "//*[@id='main']/div/div[1]/h3[1]",
+        "lojasComponent": {
+            "udiloja1": "//*[@id='main']/div/div[2]/ul/li[1]/img",
+            "udiloja2": "//*[@id='main']/div/div[2]/ul/li[2]/img",
+            "udiloja3": "//*[@id='main']/div/div[2]/ul/li[3]/img",
+            "araloja1": "//*[@id='main']/div/div[2]/ul/li[4]/img",
+            "araloja2": "//*[@id='main']/div/div[2]/ul/li[5]/img"
+        }
+    }
+}
