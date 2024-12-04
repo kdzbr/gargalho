@@ -2,7 +2,14 @@
     "contatoPage": {
         "telefonesComponent": "/html/body/div[2]/header/div/div/a",
         "logoComponent": "/html/body/div[2]/header/div/div/div[1]/h1/a/img",
-        "contatoComponent": "//*[@id='main']/div/h1",
-         "contatoUniaoTintasEmail": "/html/body/footer/div/div[2]/a"
+        "contatoComponent": {
+            "nome": "//*[@id='wpcf7-f22-p14-o1']/form/p[1]/span[1]/input",
+            "email": "//*[@id='wpcf7-f22-p14-o1']/form/p[1]/span[2]/input",
+            "telefone": "//*[@id='wpcf7-f22-p14-o1']/form/p[1]/span[3]/input",
+            "assunto": "//*[@id='wpcf7-f22-p14-o1']/form/p[1]/span[4]/input",
+            "mensagem": "//*[@id='wpcf7-f22-p14-o1']/form/p[1]/span[5]/input",
+            "botaoEnviar": "//*[@id='wpcf7-f22-p14-o1']/form/p[2]/input"
+        },
+        "contatoUniaoTintasEmail": "/html/body/footer/div/div[2]/a"
     }
 }
