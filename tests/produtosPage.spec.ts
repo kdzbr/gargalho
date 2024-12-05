@@ -2,7 +2,7 @@ import { test } from '@playwright/test';
 import { produtosPage } from '../locators/urlWeb.json';
 import { produtoPageComponents } from '../components/produtosPageComponents.json';
 
-test('Ir para contato page da Uniao Tintas', async ({ page }) => {
+test('Ir para produto page da Uniao Tintas', async ({ page }) => {
     await page.goto(produtosPage);
     console.log('Acesso a página com sucesso!')
 });

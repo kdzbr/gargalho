@@ -21,21 +21,21 @@ test('Verificar se existe o componente Logo', async ({ page }) => {
 
 test('Verificar se existe o componente Ferramentas', async ({ page }) => {
     await page.goto(homePage);
-    await page.getByRole('link', { name: homePageComponents.ferramentaComponent.component }).isVisible();
+    await page.getByRole('heading', { name: homePageComponents.ferramentaComponent.component }).isVisible();
     await page.getByRole('link', { name: homePageComponents.ferramentaComponent.url }).isVisible();
     console.log('Existe o componente Ferramentas!')
 });
 
 test('Verificar se existe o componente Ambientes', async ({ page }) => {
     await page.goto(homePage);
-    await page.getByRole('link', { name: homePageComponents.ambientesComponent.component }).isVisible();
+    await page.getByRole('heading', { name: homePageComponents.ambientesComponent.component }).isVisible();
     await page.getByRole('link', { name: homePageComponents.ambientesComponent.url }).isVisible();
     console.log('Existe o componente Ambientes!')
 });
 
 test('Verificar se existe o componente Dicas Utéis', async ({ page }) => {
     await page.goto(homePage);
-    await page.getByRole('link', { name: homePageComponents.dicasUteisComponent.component }).isVisible();
+    await page.getByRole('heading', { name: homePageComponents.dicasUteisComponent.component }).isVisible();
     await page.getByRole('link', { name: homePageComponents.dicasUteisComponent.url }).isVisible();
     console.log('Existe o componente Dicas Utéis!')
 });

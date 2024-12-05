@@ -9,7 +9,7 @@ test('Ir para contato page da Uniao Tintas', async ({ page }) => {
 
 test('Verificar se existe o componente de Telefones', async ({ page }) => {
     await page.goto(contatoPage);
-    await page.getByRole('link', { name: contatoPageComponents.telefonesComponent }).isVisible();
+    await page.getByRole('link', { name: contatoPageComponents.telefonesComponent}).isVisible();
     console.log('Existe o componente Telefones!')
 });
 
@@ -21,39 +21,39 @@ test('Verificar se existe o componente Logo', async ({ page }) => {
 
 test('Verificar se existe o componente Nome', async ({ page }) => {
     await page.goto(contatoPage)
-    await page.getByRole('link', { name: contatoPageComponents.contatoComponent.nome }).isVisible();
+    await page.getByPlaceholder('Nome').isVisible();
     console.log('Existe o componente Nome!')
 });
 
 
 test('Verificar se existe o componente Email', async ({ page }) => {
     await page.goto(contatoPage)
-    await page.getByRole('link', { name: contatoPageComponents.contatoComponent.email }).isVisible();
+    await page.getByPlaceholder('E-mail').isVisible();
     console.log('Existe o componente Email!')
 });
 
 test('Verificar se existe o componente Telefone', async ({ page }) => {
     await page.goto(contatoPage)
-    await page.getByRole('link', { name: contatoPageComponents.contatoComponent.telefone }).isVisible();
+    await page.getByPlaceholder('Telefone').isVisible();
     console.log('Existe o componente Telefone!')
 });
 
 test('Verificar se existe o componente Assunto', async ({ page }) => {
     await page.goto(contatoPage)
-    await page.getByRole('link', { name: contatoPageComponents.contatoComponent.assunto }).isVisible();
+    await page.getByPlaceholder('Assunto').isVisible();
     console.log('Existe o componente Assunto!')
 });
 
 test('Verificar se existe o componente Mensagem', async ({ page }) => {
     await page.goto(contatoPage)
-    await page.getByRole('link', { name: contatoPageComponents.contatoComponent.mensagem }).isVisible();
-    console.log('Existe o componente Email!')
+    await page.getByPlaceholder('Mensagem').isVisible();
+    console.log('Existe o componente Mensagem!')
 });
 
 test('Verificar se existe o componente Botão Enviar', async ({ page }) => {
     await page.goto(contatoPage)
-    await page.getByRole('link', { name: contatoPageComponents.contatoComponent.botaoEnviar }).isVisible();
-    console.log('Existe o componente Email!')
+    await page.getByRole('button', { name: 'Enviar' }).isVisible();
+    console.log('Existe o componente Botão Enviar!')
 });
 
 test('Verificar se existe o componente Contato União Tintas Email', async ({ page }) => {
