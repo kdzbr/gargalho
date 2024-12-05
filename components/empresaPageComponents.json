@@ -1,5 +1,5 @@
 {
-    "empresaPage": {
+    "empresaPageComponents": {
         "telefonesComponent": "/html/body/div[2]/header/div/div/a",
         "logoComponent": "/html/body/div[2]/header/div/div/div[1]/h1/a/img",
         "empresaComponent": "//*[@id='main']/div/h1",
